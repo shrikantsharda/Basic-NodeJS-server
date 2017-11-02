@@ -1,15 +1,7 @@
-Dynamic Catalogue Server
+A Basic NodeJS Server
 ========================
 
-A simple dynamic catalogue server implementing:
-
- * A single catalogue at /cat
- * Read/insert/modify of items
- * Basic Auth for authentication (required for write operations)
- * Search of catalogue (urn:X-rbccps:search:simple)
-
-The server is built for simplicity, not performance.
-See htdocs/index.html for more information.
+A simple NodeJS server implementing
 
 Prerequisites
 -------------
@@ -25,10 +17,10 @@ Running
 Access http://localhost:8001
 
 
-Wiping the catalogue
+Wiping the server
 --------------------
 
-For test purposes, the catalogue may be wiped with
+For test purposes, the server may be wiped with
 
     node dropdb.js
 
